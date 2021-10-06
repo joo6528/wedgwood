@@ -1,0 +1,180 @@
+.hdrWrap{
+    height: 80px;
+}
+.hdrWrap header{
+    height: 80px;
+    padding-top: 25px;
+    position: relative
+}
+.hdrWrap .logo{
+    width: 160px;
+    height: 30px;
+}
+.hdrWrap .icon li{
+    display: none;
+}
+.hdrWrap .icon li:nth-of-type(4){
+    display: block;
+    font-size: 25px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+.hdrWrap .nav{
+    display: none;  
+}
+.hdrWrap .menu{
+    margin-top: 0;
+}
+
+.mnWrap{
+    height: 280px;
+}
+.mnWrap .bg{
+    display: none;
+}
+.mnWrap .mnImgView{
+    width: 100%;
+    height: 280px;
+}
+.mnWrap .mnImgGroup{
+    height: 280px;
+}
+.mnWrap .mnImgGroup .image{
+    height: 280px;
+    position: relative;
+}
+.mnWrap .mainText{
+    height: 280px;
+    width: 90%;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    color: #fff;
+    text-shadow: 2px 2px 4px #555 ;
+}
+.mnWrap .mnTitleGroup li{
+    line-height: 50px;
+    font-size: 30px;
+}
+.mnWrap .mnNoteView{
+    display: none;
+}
+.mnWrap .paging div{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+    box-shadow: 2px 2px 4px #555;
+    margin-top: 10px;
+}
+.mnWrap .paging .show{
+    background-color: #fff;
+}
+.mnWrap .mnTitleView{
+    height: 40px;
+}
+.mnWrap .mnTitleGroup{
+    height: 40px;
+}
+
+header h2{
+    font-size: 20px;
+}
+.cnt01 .artView{
+    width: calc(100% - ((100% / 4) * 1));
+}
+.cnt01 .artGroup{
+    width: 600%;
+}
+.cnt02 .imgThumbGroup{
+    width: 300%;
+}
+.cnt02 .imgThumbGroup .image{
+    width: calc(100% / 2 - 20px);
+}
+.cnt02 .artRight .texts p{
+    width: 100%;
+    padding: 0;
+}
+.cnt02 .artLeft{
+    margin: 0;
+}
+.cnt02 .artRight{
+    margin: 0;
+}
+.bnWrap{
+    background-image: url('../image/banner_Mob.jpg');
+}
+.bnWrap h2{
+    font-size: 30px;
+}
+.bnWrap p{
+    font-size: 14px;
+}
+.bnWrap .button{
+    font-size: 16px;
+}
+.bnWrap .button i{
+    font-size: 13px;
+}
+.cnt03 header .menu{
+    width: calc(100% / 4 * 2.5);
+}
+.cnt03 header .menu div:nth-of-type(4){
+    display: none;
+}
+.cnt03 article{
+    width: calc(100% / 2 - 10px);
+}
+.cnt03 .texts{
+    padding-top: 10px;
+}
+.cnt03 .btn{
+    width: calc(100% / 4);
+}
+.cnt04 section{
+    display: block;
+}
+.cnt04 .image{
+    background-size: contain;
+}
+.cnt04 .artLeft{
+    width: 100%;
+}
+.cnt04 .artMid{
+    width: 100%;
+}
+.cnt04 .artLeft .i1{
+    height: 340px;
+}
+.cnt04 .artLeft .texts{
+    height: 340px;
+}
+.cnt04 .artMid .i1{
+    height: 170px;
+}
+.cnt04 .artMid article:nth-of-type(1) .texts{
+    height: 170px;
+    padding-top: 60px;
+}
+.cnt04 .artMid .i2{
+    height: 150px;
+}
+.cnt04 .artMid article:nth-of-type(2) .texts{
+    height: 150px;
+    padding-top: 50px;
+}
+.cnt05 article{
+    width: calc(100% / 2);
+    height: 190px;
+}
+.cnt05 article:nth-of-type(3){
+    display: none;
+}
+.cnt05 .image{
+    height: 190px;
+}
+.cnt05 .texts{
+    height: 190px;
+}

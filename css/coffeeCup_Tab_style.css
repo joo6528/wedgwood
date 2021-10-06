@@ -1,0 +1,147 @@
+.mnWrap{
+    height: 380px;
+}
+.mnWrap .leftBg{
+    width: 50%;
+    height: 380px;
+}
+.mnWrap .rightBg{
+    width: 50%;
+    height: 380px;
+}
+.mnWrap main{
+    width: 100%;
+    margin-top: 0;
+}
+.mnWrap .image{
+    width: 50%;
+    height: 320px;
+}
+.mnWrap .mainText{
+    margin-right: 5%;
+    width: calc(100% / 8 * 3);
+    margin-top: 20px;
+}
+.content{
+    width: 90%;
+}
+.cntWrap{
+    margin-top: 40px;
+}
+header h2{
+    font-size: 28px;
+}
+.cnt01{
+    height: 360px;
+}
+.cnt01 section{
+    height: 200px;
+}
+.cnt01 article{
+    height: 200px;
+}
+.cnt01 .image{
+    height: 200px;
+}
+.cnt01 .image::after{
+    height: 198px;
+}
+.cnt01 .texts{
+    font-size: 14px;
+}
+.cnt01 h5{
+    line-height: 40px;
+}
+.cnt02 .menu{
+    width: calc(100% / 8 * 5);
+}
+.cnt02 section{
+    height: 600px;
+}
+.cnt02 article{
+    height: 280px;
+}
+.cnt02 .image{
+    height: 160px;
+}
+.cnt02 .cart{
+    height: 280px;
+}
+.cnt02 h3{
+    font-size: 12px;
+    padding-top: 20px;
+}
+.cnt02 h5{
+    font-size: 14px;
+    padding-top: 20px;
+}
+.cnt02 .new::after{
+    margin-top: 10px;
+}
+.cnt02 .cart i{
+    margin-top: 120px;
+}
+.cnt02 .btn{
+    width: calc(100% / 8);
+    font-size: 16px;
+}
+.cnt03{
+    height: 520px;
+}
+.cnt03 article{
+    width: calc(100% / 2 - 10px);
+    height: 160px;
+}
+.cnt03 section{
+    row-gap: 40px;
+}
+.cnt03 .image{
+    height: 160px;
+}
+.cnt03 article:nth-of-type(3){
+    height: 240px;
+}
+.cnt03 .texts{
+    padding: 40px;
+}
+.cnt03 article:nth-of-type(2) .texts{
+    padding: 60px;
+}
+.cnt03 article:nth-of-type(3) .texts{
+    height: 240px;
+    left: 0;
+    padding: 20px;
+}
+.cnt03 .i3{
+    height: 240px;
+}
+.cnt03 h3{
+    font-size: 28px;
+}
+.cnt03 p{
+    font-size: 16px;
+    height: 40px;
+}
+.cnt03 .button{
+    font-size: 16px;
+    width: calc(100% / 4);
+}
+.cnt03 .button i{
+    transform: translateY(1px);
+}
+.scWrap{
+    margin-top: 40px;
+    height: 120px;
+}
+.scTexts{
+    padding: 40px;
+    width: 90%;
+}
+.scTexts h3{
+    font-size: 24px;
+}
+.scTexts input{
+    font-size: 14px;
+    height: 30px;
+    width: calc(100% / 8 * 6);
+}

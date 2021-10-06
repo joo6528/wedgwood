@@ -1,0 +1,92 @@
+.mnWrap{
+    height: 280px;
+}
+.mnWrap .leftBg{
+    display: none;
+}
+.mnWrap .rightBg{
+    display: none;
+}
+.mnWrap .image{
+    width: 100%;
+    height: 280px;
+}
+.mnWrap .mainText{
+    position: absolute;
+    right: 5%;
+    width: calc(100% / 4 * 2.5);
+    margin: 0;
+    text-shadow: 2px 2px 4px #555;
+}
+.mnWrap h2{
+    font-size: 20px;
+}
+.mnWrap p{
+    font-size: 14px;
+    margin: 0;
+    height: 60px;
+}
+header h2{
+    font-size: 20px;
+}
+.cnt02 .menu{
+    margin-top: 20px;
+    width: calc(100% / 4 * 4);
+    max-width: 310px;
+}
+.cnt02 .menu div{
+    font-size: 12px;
+    padding: 2px 13px;
+}
+.cnt02 section{
+    height: 600px;
+    margin-top: 20px;
+}
+.cnt02 article{
+    width: calc(100% / 2 - 10px);
+}
+.cnt02 .btn{
+    width: calc(100% / 4);
+}
+.cnt03 section{
+    display: block;
+    margin-top: 0;
+}
+.cnt03 article{
+    width: 100%;
+    height: 170px;
+    margin-top: 40px;
+}
+.cnt03 .image{
+    height: 100%
+}
+.cnt03 article:nth-of-type(3) .texts{
+    width: 80%;
+}
+.cnt03 h3{
+    font-size: 24px;
+}
+.cnt03 p{
+    font-size: 14px;
+}
+.cnt03 .button{
+    font-size: 14px;
+}
+.cnt03{
+    height: 740px;
+}
+.scWrap{
+    background-image: url('../image/sub01_search_mob_img.jpg');
+}
+.scTexts{
+    padding: 40px 0;
+}
+.scTexts h3{
+    font-size: 20px;
+}
+.scTexts input{
+    font-size: 14px;
+}
+.scTexts .icon{
+    font-size: 20px;
+}
