@@ -1,0 +1,103 @@
+.cnt01 .images{
+    height: 440px;
+}
+.cnt01 .images>.image{
+    height: 280px;
+}
+.cnt01 .thumbView{
+    width: calc(100% / 4 * 3.8);
+    margin-top: 40px;
+}
+.cnt01 .thumbGroup{
+    width: 250%;
+}
+.cnt01 .btn{
+    font-size: 25px;
+    margin-top: -75px;
+}
+.cnt01 .texts button:nth-of-type(3){
+    width: calc(100% / 4 * 3.2);
+    font-size: 18px;
+}
+.cnt01 article:nth-of-type(2) li:nth-child(odd) h3{
+    font-size: 16px;
+}
+.cnt01 li:nth-of-type(4){
+    padding: 20px 10px;
+}
+.cnt01 li:nth-of-type(4) h5{
+    font-size: 14px;
+}
+.cnt01 li:nth-of-type(4) p{
+    font-size: 14px;
+}
+.mnTop{
+    margin-top: 20px;
+}
+.mnTop h3{
+    font-size: 14px;
+    line-height: 30px;
+}
+.mnTop .button{
+    font-size: 12px;
+    line-height: 30px;
+}
+.goalBox{
+    height: 80px;
+}
+.goalBox h3{
+    font-size: 18px;
+    margin-top: 0;
+    line-height: 80px;
+}
+.cnt01 li:nth-of-type(6){
+    padding: 0 10px;
+}
+.mnsub .texts h3{
+    font-size: 12px;
+    margin-right: 10px;
+}
+.goalTexts h5{
+    font-size: 10px;
+}
+.goalTexts h3{
+    font-size: 14px;
+}
+.goalTexts p{
+    font-size: 12px;
+}
+.goalTexts .i1{
+    width: 250px;
+    height: 200px;
+}
+.cnt02 .artView{
+    width: 100%;
+}
+.cnt02 .artGroup{
+    width: 300%;
+}
+.cnt02 .texts h3{
+    font-size: 12px;
+}
+.cnt02 .texts h5{
+    font-size: 12px;
+}
+.cnt02 .btn{
+    display: none;
+}
+.scWrap{
+    background-image: url('../image/sub01_search_mob_img.jpg');
+}
+.scTexts{
+    padding: 40px 0;
+}
+.scTexts h3{
+    font-size: 20px;
+}
+.scTexts input{
+    font-size: 14px;
+}
+.scTexts .icon{
+    font-size: 20px;
+}
+

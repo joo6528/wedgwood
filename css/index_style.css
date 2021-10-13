@@ -114,6 +114,7 @@ body{
     width: 300%;
     height: 420px;
     display: flex;
+    transition: all 0.5s;
 } 
 .mnWrap .mnImgGroup .image{
     width: calc(100% / 3);
@@ -145,6 +146,7 @@ body{
     width: 300%;
     height: 80px;
     display: flex;
+    transition: all 0.5s;
 }
 .mnWrap .mnTitleGroup li{
     width: calc(100% / 3);
@@ -162,6 +164,7 @@ body{
     width: 300%;
     height: 100%;
     display: flex;
+    transition: all 0.5s;
 }
 .mnWrap .mnNoteGroup li{
     width: calc(100% / 3);
@@ -169,8 +172,9 @@ body{
     font-size: 16px;
 }
 .mnWrap .paging{
+    width: 100%;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 .mnWrap .paging div{
     width: 15px;
@@ -229,6 +233,7 @@ header h2{
     background-color: #ebebeb;
     border-radius: 50%;
     z-index: -5;
+    transition: all 0.5s;
 }
 .cnt01 section{
     position: relative;
@@ -357,6 +362,7 @@ header h2{
     right: 0;
     left: 0;
     overflow: hidden;
+    z-index: 10;
 }
 .cnt02 .imgThumbGroup{
     width: 150%;
@@ -573,10 +579,10 @@ header h2{
     background-image: url('../image/그릇 이미지/plato01.jpeg');
 }
 .cnt03 .i5{
-    background-image: url('../image/커피잔,홍차잔 이미지/cup02.jpeg');
+    background-image: url('../image/coffeeCup_img/cup02.jpeg');
 }
 .cnt03 .i6{
-    background-image: url('../image/커피잔,홍차잔 이미지/cup03.jpeg');
+    background-image: url('../image/coffeeCup_img/cup03.jpeg');
 }
 .cnt03 .i7{
     background-image: url('../image/접시 이미지/dish03.jpeg');
@@ -599,7 +605,7 @@ header h2{
 }
 .cnt03 .cart{
     width: 100%;
-    height: 360px;
+    height: 356px;
     text-align: center;
     position: absolute;
     top: 0;left: 0;

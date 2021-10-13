@@ -43,7 +43,7 @@ header h2{
     margin-top: 20px;
 }
 .cnt02 article{
-    width: calc(100% / 2 - 10px);
+    width: calc(100% / 2 - 20px);
 }
 .cnt02 .btn{
     width: calc(100% / 4);
@@ -55,7 +55,7 @@ header h2{
 .cnt03 article{
     width: 100%;
     height: 170px;
-    margin-top: 40px;
+    margin: 40px 0 0 0;
 }
 .cnt03 .image{
     height: 100%
@@ -64,10 +64,13 @@ header h2{
     width: 80%;
 }
 .cnt03 h3{
-    font-size: 24px;
+    font-size: 20px;
 }
 .cnt03 p{
     font-size: 14px;
+}
+.cnt03 article:nth-of-type(2) .texts{
+    padding: 70px;
 }
 .cnt03 .button{
     font-size: 14px;
@@ -89,4 +92,8 @@ header h2{
 }
 .scTexts .icon{
     font-size: 20px;
+}
+.cnt01 section{
+    width: 200%;
+    margin-left: -50%;
 }

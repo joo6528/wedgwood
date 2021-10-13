@@ -124,6 +124,9 @@ header h2{
 .cnt03 header .menu div:nth-of-type(4){
     display: none;
 }
+.cnt03 section{
+    height: 600px;
+}
 .cnt03 article{
     width: calc(100% / 2 - 10px);
 }

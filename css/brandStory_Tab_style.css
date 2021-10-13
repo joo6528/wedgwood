@@ -1,0 +1,188 @@
+.mnWrap{
+    height: 380px;
+}
+.mnWrap .leftBg{
+    width: 50%;
+    height: 380px;
+}
+.mnWrap .rightBg{
+    width: 50%;
+    height: 380px;
+}
+.mnWrap main{
+    width: 100%;
+    margin-top: 0;
+}
+.mnWrap .image{
+    width: 50%;
+    height: 320px;
+}
+.mnWrap .mainText{
+    margin-right: 5%;
+    width: calc(100% / 8 * 3);
+    margin-top: 20px;
+}
+.content{
+    width: 100%;
+}
+.cntWrap{
+    margin-top: 40px;
+}
+header h2{
+    font-size: 28px;
+}
+.cnt01 .images{
+    width: 50%;
+    height: 340px;
+}
+.cnt01 .image.i1{
+    width: 100%;
+    height: 320px;
+}
+.cnt01 .image.i2{
+    height: 130px;
+    top: 120px;
+    left: -110px;
+}
+.cnt01 .image.i3{
+    height: 60px;
+    right: 90px;
+}
+.cnt01 .texts{
+    width: 45%;
+    height: 320px;
+}
+.cnt01 .txt{
+    padding: 40px 0;
+}
+.cnt01 .texts h3{
+    font-size: 26px;
+}
+.cnt01 .texts p{
+    font-size: 14px;
+    height: 80px;
+}
+.cnt01 .texts .button{
+    font-size: 20px;
+    margin-top: 40px;
+}
+.cnt01 .tt{
+    display: none;
+}
+.cnt01 .tb{
+    display: none;
+}
+.cnt01 article:nth-of-type(2){
+    height: 280px;
+}
+.cnt01 article:nth-of-type(2) .images{
+    width: 40%;
+    height: 280px;
+}
+.cnt01 .i4{
+    width: 100%;
+    height: 280px;
+}
+.cnt01 .i5{
+    height: 230px;
+    top: 30px;
+    right: -150px;
+}
+.cnt01 article:nth-of-type(2) .texts{
+    height: 280px;
+}
+.cnt01 article:nth-of-type(2) .txt{
+    padding: 0;
+}
+.cnt01 article:nth-of-type(3){
+    height: 480px;
+}
+.cnt01 article:nth-of-type(3) .images{
+    width: 20%;
+    height: 480px;
+}
+.cnt01 .i6{
+    width: 100%;
+    height: 480px;
+}
+.cnt01 .i6::after{
+    width: 170px;
+    height: 170px;
+    left: -90px;
+}
+.cnt01 .i7{
+    top: 20px;
+    left: -80px;
+}
+.cnt01 article:nth-of-type(3) .texts{
+    width: 50%;
+    height: 480px;
+}
+.cnt01 article:nth-of-type(3) .txt{
+    margin-top: 160px;
+}
+.mapWrap{
+    margin-top: 40px;
+}
+.map section::before{
+    height: 320px;
+}
+.map article{
+    display: block;
+    height: 520px;
+    width: calc(100% / 3 - 20px);
+    margin-right: 20px;
+}
+.map .image{
+    width: 100%;
+    height: 320px;
+}
+.map .texts{
+    width: 100%;
+    height: 200px;
+    padding: 0 20px;
+}
+.map h3{
+    font-size: 20px;
+}
+.map h5{
+    font-size: 14px;
+}
+.map p{
+    font-size: 14px;
+    width: 55%;
+    height: 80px;
+}
+.map p:nth-of-type(1){
+    margin-top: 20px;
+}
+.map p:nth-of-type(2){
+    margin-top: 0px;
+    border-top: none;
+}
+.map .paging{
+    width: 20%;
+    justify-content: space-between;
+}
+.map .paging div{
+    margin: 0;
+}
+.map .btn{
+    bottom: 230px;
+}
+.scWrap{
+    margin-top: 40px;
+    height: 120px;
+}
+.scTexts{
+    padding: 40px;
+    width: 90%;
+}
+.scTexts h3{
+    font-size: 24px;
+}
+.scTexts input{
+    font-size: 14px;
+    height: 30px;
+    width: calc(100% / 8 * 6);
+}

@@ -89,7 +89,6 @@ header h2{
     height: 520px;
 }
 .cnt03 article{
-    width: calc(100% / 2 - 10px);
     height: 160px;
 }
 .cnt03 section{

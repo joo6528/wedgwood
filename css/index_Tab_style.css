@@ -36,6 +36,12 @@ header h2{
     width: 50%;
     height: 320px;
 }
+.mnWrap .mnImgGroup{
+    height: 320px;
+}
+.mnWrap .mnImgGroup .image{
+    height: 320px;
+}
 .mnWrap .mainText{
     width: calc(100% / 8 * 3.5);
     margin-right: 5%;
@@ -139,7 +145,7 @@ header h2{
     font-size: 14px;
 }
 .cnt03 .cart{
-    height: 280px;
+    height: 276px;
 }
 .cnt03 .cart i{
     margin: 120px 10px 0 10px
