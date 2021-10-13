@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Festivity</title>
     <link rel="stylesheet" href="css/festivity_style.css">
+    <link rel="stylesheet" href="css/festivity_Tab_style.css" media="(min-width: 0px) and (max-width: 780px)">
+    <link rel="stylesheet" href="css/festivity_Mob_style.css" media="(min-width: 0px) and (max-width: 420px)">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/festivity.js"></script>
 </head>
 <body>
     <!-- 컨텐트 1번 -->
@@ -29,23 +33,23 @@
                         </div>
         
                         <div class="btn">
-                            <div class="left"></div>
-                            <div class="right"></div>
+                            <div class="left"><i class="fas fa-chevron-left"></i></div>
+                            <div class="right"><i class="fas fa-chevron-right"></i></div>
                         </div>
         
                     </div>
         
                     <div class="texts">
-                        <div class="button">review<i class="fas fa-plus"></i></div>
+                        <div class="button new">review<i class="fas fa-plus"></i></div>
         
                         <h3>Lorem ipsum dolor</h3>
         
                         <h5>￦ 54,000</h5>
         
                         <button><i class="fas fa-minus"></i></button>
-                        <input type="number">
+                        <input type="number" value="1">
                         <button><i class="fas fa-plus"></i></button>
-        
+                        <br>
                         <button>cart</button>
                         <button><i class="fas fa-heart"></i></button>
         
@@ -55,14 +59,14 @@
                 <article>
                     <ul>
                         <li>
-                            <h3>Lorem ipsum dolor<i class="fas fa-chevron-down"></i></h3>
+                            <h3><span>Lorem ipsum dolor </span><i class="fas fa-chevron-down"></i></h3>
                         </li>
                         <li>
                             <div class="image i1"></div>
                         </li>
 
                         <li>
-                            <h3>Lorem ipsum dolor<i class="fas fa-chevron-down"></i></h3>
+                            <h3><span>Lorem ipsum dolor</span><i class="fas fa-chevron-down"></i></h3>
                         </li>
                         <li>
                             <h5>Lorem ipsum dolor sit</h5>
@@ -74,7 +78,7 @@
                         </li>
 
                         <li>
-                            <h3>Lorem ipsum dolor<i class="fas fa-chevron-down"></i></h3> 
+                            <h3><span>Lorem ipsum dolor</span><i class="fas fa-chevron-down"></i></h3> 
                         </li>
                         <li>
                             <div class="mnTop">
@@ -83,16 +87,18 @@
                             </div>
 
                             <div class="goalBox">
-                                <h3>give grades 5.0<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h3>
+                                <h3>give grades <span>5</span>.0<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h3>
                             </div>
 
                             <div class="goalGroup">
 
                                 <div class="mnsub">
 
-                                    <h3>whole</h3>
-                                    <h3>photo</h3>
-                                    <h3>video</h3>
+                                    <div class="texts">
+                                        <h3>whole</h3>
+                                        <h3>photo</h3>
+                                        <h3>video</h3>
+                                    </div>
     
                                     <select name="" id="">
                                         <option value="">recommend</option>
@@ -132,7 +138,7 @@
     </div>
 
     <!-- 컨텐트 2번 -->
-    <div class="cntWrap">
+    <div class="cntWrap festivityBg">
         <div class="content cnt02">
             <header>
                 <h2>#festivity</h2>
@@ -194,8 +200,8 @@
                 </div>
 
                 <div class="btn">
-                    <div class="left"></div>
-                    <div class="right"></div>
+                    <div class="left"><i class="fas fa-chevron-left"></i></div>
+                    <div class="right"><i class="fas fa-chevron-right"></i></div>
                 </div>
 
             </section>
