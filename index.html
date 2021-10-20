@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>wedgwood</title>
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/index_style.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/index_Tab_style.css" media="(min-width: 0px) and (max-width: 780px)">
     <link rel="stylesheet" href="css/index_Mob_style.css" media="(min-width: 0px) and (max-width: 420px)">
     <script src="js/jquery-3.6.0.min.js"></script>
@@ -13,19 +15,20 @@
 </head>
 <body>
     <? include 'inc/header.html' ?>
-    <!--헤더
+
+    <!-- 헤더 
     <div class="hdrWrap">
 
         <header>
-            <div class="logo"></div>
-
+            <a href="../index.html"><div class="logo"></div></a>
+    
             <div class="menu">
-
+    
                 <ul class="nav">
-                    <li>home</li>
-                    <li>table ware</li>
-                    <li>tea ware</li>
-                    <li>coffee cup</li>
+                    <li><a href="../index.html">home</a></li>
+                    <li><a href="../coffee cup.html">coffee cup</a></li>
+                    <li><a href="../festivity.html">festivity</a></li>
+                    <li><a href="../brandStory.html">brand story</a></li>
                 </ul>
     
                 <ul class="icon">
@@ -36,10 +39,26 @@
                 </ul>
     
             </div>
-
+    
+            <div class="sideBar">
+                <div class="logo"></div>
+                <ul class="sideIcon">
+                    <li><i class="fas fa-map-marker-alt"></i></li>
+                    <li><i class="fas fa-user"></i></li>
+                    <li><i class="fas fa-shopping-bag"></i></li>
+                </ul>
+                <ul class="sideNav">
+                    <li><i class="fas fa-times"></i></li>
+                    <li><a href="../coffee cup.html">coffee cup</a></li>
+                    <li><a href="../festivity.html">festivity</a></li>
+                    <li><a href="../brandStory.html">brand story</a></li>
+                </ul>
+            </div>
+    
         </header>
-
-    </div>-->
+    
+    </div>
+    -->
 
     <!--메인배너-->
     <div class="mnWrap">
@@ -487,35 +506,39 @@
     </div>
 
     <? include 'inc/footer.html' ?>
-    <!--푸터
+ 
+   <!-- 푸터 
     <div class="ftrWrap">
 
         <footer>
-
+    
             <div class="logo"></div>
-
+    
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem exercitationem sequi quasi, nostrum obcaecati assumenda placeat. Nam labore cumque neque ipsam, rerum aut possimus ratione dolor similique perferendis, consequuntur esse.</p>
-
+    
             <div class="select">
-
-                <select name="" id="">
-                    <option value="">site menu</option>
-                    <option value="">site menu 1</option>
-                    <option value="">site menu 2</option>
-                    <option value="">site menu 3</option>
-                    <option value="">site menu 4</option>
-                </select>
-
+    
+                <div class="sel"><span>site menu</span> <span>▲</span></div>
+                <ul class="op">
+                    <li>site menu01</li>
+                    <li>site menu02</li>
+                    <li>site menu03</li>
+                    <li>site menu04</li>
+                </ul>
+    
                 <div class="sns">
                     <i class="fab fa-pinterest"></i>
                     <i class="fab fa-facebook"></i>
                     <i class="fas fa-share-alt"></i>
                 </div>
-
+    
             </div>
-
+    
         </footer>
-    </div>-->
+    </div>
+    -->
+
+    <div class="toTop">Top</div>
 
 </body>
 </html>

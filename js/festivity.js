@@ -83,6 +83,7 @@ $(function(){
 
 
         var goalBox = $('.goalBox i')
+        
         goalBox.css('color','#ccc');
         goalBox.find('span').text(0);
 

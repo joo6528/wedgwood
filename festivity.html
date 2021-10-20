@@ -5,16 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Festivity</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/festivity_style.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/festivity_Tab_style.css" media="(min-width: 0px) and (max-width: 780px)">
     <link rel="stylesheet" href="css/festivity_Mob_style.css" media="(min-width: 0px) and (max-width: 420px)">
-    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
     <script src="js/festivity.js"></script>
 </head>
 <body>
+
+    <? include 'inc/header.html' ?>
+
+    <!-- 헤더 
+    <div class="hdrWrap">
+
+        <header>
+            <a href="../index.html"><div class="logo"></div></a>
+    
+            <div class="menu">
+    
+                <ul class="nav">
+                    <li><a href="../index.html">home</a></li>
+                    <li><a href="../coffee cup.html">coffee cup</a></li>
+                    <li><a href="../festivity.html">festivity</a></li>
+                    <li><a href="../brandStory.html">brand story</a></li>
+                </ul>
+    
+                <ul class="icon">
+                    <li><i class="fas fa-map-marker-alt"></i></li>
+                    <li><i class="fas fa-user"></i></li>
+                    <li><i class="fas fa-shopping-bag"></i></li>
+                    <li><i class="fas fa-bars"></i></li>
+                </ul>
+    
+            </div>
+    
+            <div class="sideBar">
+                <div class="logo"></div>
+                <ul class="sideIcon">
+                    <li><i class="fas fa-map-marker-alt"></i></li>
+                    <li><i class="fas fa-user"></i></li>
+                    <li><i class="fas fa-shopping-bag"></i></li>
+                </ul>
+                <ul class="sideNav">
+                    <li><i class="fas fa-times"></i></li>
+                    <li><a href="../coffee cup.html">coffee cup</a></li>
+                    <li><a href="../festivity.html">festivity</a></li>
+                    <li><a href="../brandStory.html">brand story</a></li>
+                </ul>
+            </div>
+    
+        </header>
+    
+    </div>
+    -->
+
     <!-- 컨텐트 1번 -->
     <div class="cntWrap">
         <div class="content cnt01">
+
+            <!-- 하트 -->
+            <div class="heart">
+                <div><i class="fas fa-heart"></i></div>
+            </div>
 
             <section>
                 <article>
@@ -46,14 +102,21 @@
         
                         <h5>￦ 54,000</h5>
         
-                        <button><i class="fas fa-minus"></i></button>
-                        <input type="number" value="1">
-                        <button><i class="fas fa-plus"></i></button>
-                        <br>
-                        <button>cart</button>
-                        <button><i class="fas fa-heart"></i></button>
+                        <div class="num">
+                            <form action="">
+                                <div><i class="fas fa-minus"></i></div>
+                                <input type="text" value="1">
+                                <div><i class="fas fa-plus"></i></div>
+                            </form>
+                            </div>
+
+                        <div class="cart">
+                            <button>cart</button>
+                            <button><i class="fas fa-heart"></i></button>
+                        </div>
         
                     </div>
+                    
                 </article>
 
                 <article>
@@ -99,12 +162,6 @@
                                         <h3>photo</h3>
                                         <h3>video</h3>
                                     </div>
-    
-                                    <select name="" id="">
-                                        <option value="">recommend</option>
-                                        <option value="">recommend01</option>
-                                        <option value="">recommend02</option>
-                                    </select>
 
                                 </div>
 
@@ -208,22 +265,40 @@
         </div>
     </div>
 
-     <!-- 검색창 -->
-     <div class="scWrap">
+    <? include 'inc/footer.html' ?>
 
-        <div class="scTexts">
+   <!-- 푸터 
+    <div class="ftrWrap">
 
-            <h3>search</h3>
+        <footer>
 
-            <input type="text" placeholder="원하는 상품을 검색해 보세요.">
+            <div class="logo"></div>
 
-            <div class="icon">
-                <i class="fas fa-search"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem exercitationem sequi quasi, nostrum obcaecati assumenda placeat. Nam labore cumque neque ipsam, rerum aut possimus ratione dolor similique perferendis, consequuntur esse.</p>
+
+            <div class="select">
+
+                <div class="sel"><span>site menu</span> <span>▲</span></div>
+                <ul class="op">
+                    <li>site menu01</li>
+                    <li>site menu02</li>
+                    <li>site menu03</li>
+                    <li>site menu04</li>
+                </ul>
+
+                <div class="sns">
+                    <i class="fab fa-pinterest"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fas fa-share-alt"></i>
+                </div>
+
             </div>
 
-        </div>
-
+        </footer>
     </div>
+    -->
+
+    <div class="toTop">Top</div>
 
 </body>
 </html>

@@ -6,71 +6,6 @@ body{
     font-family: 'Cinzel';
 }
 
-/*헤더*/
-.hdrWrap{
-    width: 100%;
-    height: 220px;
-    box-shadow: 4px 4px 25px rgba(41, 42, 24, 0.2);
-    position: relative;
-    z-index: 10;
-}
-.hdrWrap header{
-    width: 80%;
-    height: 220px;
-    max-width: 1080px;
-    margin: 0 auto;
-    padding-top: 50px;
-}
-.hdrWrap .logo{
-    width: 315px;
-    height: 60px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('../image/logo.svg');
-    margin: 0 auto;
-}
-.hdrWrap .menu{
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-between;
-}
-.hdrWrap .nav {
-    display: flex;
-    width: calc(100% / 12 * 5.2);
-    justify-content: space-between;
-}
-.hdrWrap .nav li{
-    font-size: 18px;
-    line-height: 40px;
-    cursor: pointer;
-    color: #555;
-}
-.hdrWrap .nav li:hover{
-    font-weight: 700;
-}
-.hdrWrap .nav li:nth-of-type(1){
-    color: #79abd2;
-    font-weight: 700;
-}
-.hdrWrap .icon{
-    display: flex;
-    width: calc(100% / 12 * 1.2);
-    justify-content: space-between;
-}
-.hdrWrap .icon li{
-    line-height: 40px;
-    font-size: 20px;
-    cursor: pointer;
-    color: #555;
-}
-.hdrWrap .icon li:nth-of-type(4){
-    display: none;
-}
-.hdrWrap .icon li:hover{
-    color: #79abd2;
-}
-
 /* 메인베너 */
 .mnWrap{
     width: 100%;
@@ -151,7 +86,7 @@ body{
 .mnWrap .mnTitleGroup li{
     width: calc(100% / 3);
     line-height: 80px;
-    font-size: 32px;
+    font-size: 26px;
     font-size: 700;
 }
 
@@ -169,7 +104,7 @@ body{
 .mnWrap .mnNoteGroup li{
     width: calc(100% / 3);
     line-height: 20px;
-    font-size: 16px;
+    font-size: 14px;
 }
 .mnWrap .paging{
     width: 100%;
@@ -220,11 +155,12 @@ header h2{
 }
 .cnt01 .menu div{
     line-height: 70px;
-    width: calc(100% / 4 - 20px);
+    width: calc(100% / 4 - 10px);
     font-size: 16px;
     color: #555;
     text-align: center;
     cursor: pointer;
+    transition: all 0.5s;
 }
 .cnt01 .menu .circle{
     position: absolute;
@@ -233,7 +169,6 @@ header h2{
     background-color: #ebebeb;
     border-radius: 50%;
     z-index: -5;
-    transition: all 0.5s;
 }
 .cnt01 section{
     position: relative;
@@ -362,7 +297,7 @@ header h2{
     right: 0;
     left: 0;
     overflow: hidden;
-    z-index: 10;
+    z-index: 1;
 }
 .cnt02 .imgThumbGroup{
     width: 150%;
@@ -378,25 +313,25 @@ header h2{
 }
 .cnt02 .artRight .i1{
     background-size: contain;
-    background-image: url('../image/와일드스토리베리/img01].jpg');
+    background-image: url('../image/wildStrawerry/img01].jpg');
 }
 .cnt02 .imgThumbGroup .i1{
-    background-image: url('../image/와일드스토리베리/img01].jpg');
+    background-image: url('../image/wildStrawerry/img01].jpg');
 }
 .cnt02 .imgThumbGroup .i2{
-    background-image: url('../image/와일드스토리베리/img02.jpg');
+    background-image: url('../image/wildStrawerry/img02.jpg');
 }
 .cnt02 .imgThumbGroup .i3{
-    background-image: url('../image/와일드스토리베리/img03.jpg');
+    background-image: url('../image/wildStrawerry/img03.jpg');
 }
 .cnt02 .imgThumbGroup .i4{
-    background-image: url('../image/와일드스토리베리/img04.jpg');
+    background-image: url('../image/wildStrawerry/img04.jpg');
 }
 .cnt02 .imgThumbGroup .i5{
-    background-image: url('../image/와일드스토리베리/img05.jpg');
+    background-image: url('../image/wildStrawerry/img05.jpg');
 }
 .cnt02 .imgThumbGroup .i6{
-    background-image: url('../image/와일드스토리베리/img06.jpg');
+    background-image: url('../image/wildStrawerry/img06.jpg');
 }
 .cnt02 .btn{
     width: 100%;
@@ -525,7 +460,7 @@ header h2{
 
 /*컨텐트 3번*/
 .cnt03 header .menu{
-    width: calc(100% / 3 - 20px);
+    width: calc(100% / 2 - 20px);
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -567,16 +502,16 @@ header h2{
     height: 240px;
 }
 .cnt03 .i1{
-    background-image: url('../image/접시 이미지/dish01.jpeg');
+    background-image: url('../image/plato/dish01.jpeg');
 }
 .cnt03 .i2{
-    background-image: url('../image/접시 이미지/dish02.jpeg');
+    background-image: url('../image/plato/dish02.jpeg');
 }
 .cnt03 .i3{
-    background-image: url('../image/그릇 이미지/pot01.jpeg');
+    background-image: url('../image/pot/pot01.jpeg');
 }
 .cnt03 .i4{
-    background-image: url('../image/그릇 이미지/plato01.jpeg');
+    background-image: url('../image/pot/plato01.jpeg');
 }
 .cnt03 .i5{
     background-image: url('../image/coffeeCup_img/cup02.jpeg');
@@ -585,10 +520,10 @@ header h2{
     background-image: url('../image/coffeeCup_img/cup03.jpeg');
 }
 .cnt03 .i7{
-    background-image: url('../image/접시 이미지/dish03.jpeg');
+    background-image: url('../image/plato/dish03.jpeg');
 }
 .cnt03 .i8{
-    background-image: url('../image/접시 이미지/dish04.jpeg');
+    background-image: url('../image/plato/dish04.jpeg');
 }
 .cnt03 .texts{
     text-align: center;
@@ -636,7 +571,7 @@ header h2{
 }
 
 .cnt03 .btn{
-    width: calc(100% / 12);
+    width: calc(100% / 9);
     margin: 0 auto;
     text-align: center;
     margin-top: 40px;
@@ -807,19 +742,19 @@ header h2{
     height: 210px;
 }
 .cnt05 .i1{
-    background-image: url('../image/인스타그램 이미지/insta01.jpeg');
+    background-image: url('../image/insta/insta01.jpeg');
 }
 .cnt05 .i2{
-    background-image: url('../image/인스타그램 이미지/insta02.jpeg');
+    background-image: url('../image/insta/insta02.jpeg');
 }
 .cnt05 .i3{
-    background-image: url('../image/인스타그램 이미지/insta03.jpeg');
+    background-image: url('../image/insta/insta03.jpeg');
 }
 .cnt05 .i4{
-    background-image: url('../image/인스타그램 이미지/insta04.jpeg');
+    background-image: url('../image/insta/insta04.jpeg');
 }
 .cnt05 .i5{
-    background-image: url('../image/인스타그램 이미지/insta05.jpeg');
+    background-image: url('../image/insta/insta05.jpeg');
 }
 
 .cnt05 .texts{
@@ -868,63 +803,23 @@ header h2{
     line-height: 40px;
 }
 
-/* 푸터 */
-footer{
-    width: 80%;
-    max-width: 1080px;
-    height: 200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content:space-between;
-    padding-top: 40px;
-    margin-top: 40px;
-}
 
-footer .logo{
-    width: 210px;
-    height: 40px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('../image/logo.svg');
-}
-footer p{
-    width: calc(100% / 12 * 5);
-    height: 80px;
-    font-size: 16px;
-    line-height: 20px;
-    color: #a4a4a4;
-    overflow: hidden;
-}
-footer .select{
-    width: calc(100% / 12 * 4);
-    height: 40px;
-}
-footer .select select{
-    width: 100%;
-    height: 40px;
-    background-color: #a1a1a1;
-    border: none;
+/* toTop */
+.toTop{
+    width: 70px;
+    height: 70px;
+    background-color: #fc0;
+    font-weight: 700;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    font-size: 20px;
+    line-height: 70px;
     text-align: center;
-    color: #fff;
-    font-family: 'Cinzel';
+    border-radius: 50%;
     cursor: pointer;
+    z-index: 999;
 }
-footer .sns{
-    font-size: 25px;
-    text-align: right;
-    margin-top: 40px;
-}
-footer .sns i{
-    margin-right: 20px;
-    cursor: pointer;
-}
-footer .sns i:nth-of-type(1){
-    color: #e60023;
-}
-footer .sns i:nth-of-type(2){
-    color: #4c69ba;
-}
-footer .sns i:nth-of-type(3){
-    color: #000000;
+.toTop:hover{
+    box-shadow: 2px 2px 10px #ccc;
 }
